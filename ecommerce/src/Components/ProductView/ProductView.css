@@ -1,0 +1,24 @@
+.product__section{
+    height:100%;
+    width: 40%;
+    margin-top: 50px;
+    /* margin-left:20%; */
+    background-color: white;
+    padding: 30px;
+}
+
+.product__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.button{
+    color: white !important;
+    background-color: rgb(108, 108, 214) !important;
+    cursor: pointer !important;
+    padding:2px !important;
+    width: 60px;
+    height: 35px;
+}

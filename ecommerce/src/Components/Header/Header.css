@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+}
+
+.header_container {
+  height: 60px;
+  display: flex;
+  background-color: #131921;
+  background-color: rgb(108, 108, 214);
+  align-items: center;
+  position: sticky;
+  color: white;
+  z-index: 100;
+  top: 0;
+}
+
+.logo {
+  /* object-fit: contain; */
+  color: white;
+  /* font-size: 20px; */
+  width: 200px;
+  margin: 0 10px;
+  margin-top: 0px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  border-radius: 24px;
+}
+
+.search_input {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.search_icon {
+  padding: 5px;
+  height: 22px !important;
+  /* background-color: #cd9042; */
+  background-color: black;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.header_option_1 {
+  font-size: 10px;
+}
+
+.header_option_2 {
+  font-size: 13px;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.basket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.basket_count {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__options {
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 5px;
+}
+
+.header__priceoptions {
+  display: flex;
+  gap: 10px;
+}
+
+.header__priceinputs {
+  display: flex;
+  gap: 5px;
+}
+
+.header__sort {
+  display: flex;
+  gap: 15px;
+}

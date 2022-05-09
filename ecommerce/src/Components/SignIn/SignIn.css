@@ -1,0 +1,104 @@
+.signin__logo {
+  /* color: black; */
+  color:rgb(108, 108, 214);
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.errorMsg{
+  margin:5px;
+  padding:10px;
+  color:red;
+  background-color: white;
+  position:absolute;
+  top:25%;
+  margin-left:30%;
+  margin-right:30%;
+  height: 150px;
+  border: solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+}
+
+.errorMsg > button{
+  background-color: rgb(108, 108, 214);
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+}
+
+.signin__body {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.signin__body > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  width:100%;
+}
+
+.signin__body > form > h5 {
+  margin-bottom: 5px;
+}
+
+.signin__body > form > input {
+  width: 98%;
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.signin__body > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.signin__body > form > button {
+  /* background-color: #f0c14b; */
+  background-color: rgb(108, 108, 214);
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  /* border-color: #a88734 #9c7e31 #846a29; */
+}
+
+.signin__body > button {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  border: 1px solid;
+  /* border-color: darkgrey; */
+  background-color: rgb(108, 108, 214);
+  color: white;
+  cursor: pointer;
+}
